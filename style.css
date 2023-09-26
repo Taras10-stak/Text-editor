@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 80%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #ccc;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.controlsItem input {
+    width: 40px;
+    text-align: center;
+}
+
+.controlItem {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.controlItem #fontWeight {
+    font-weight: 700;
+}
+
+.controlItem #fontStyle {
+    font-style: italic;
+}
+
+.controlItem #textDecoration {
+    text-decoration: underline;
+}
+
+.controlItem #textDecorationThrough {
+    text-decoration: line-through;
+}
+.controlItem #textColor {
+    color: black;
+}
+.controlItem #backColor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+
+.palitra{
+    position: absolute;
+    display: none;
+    width: 360px;
+    height: 115px;
+    margin: 430px 0 0 0;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    flex-direction: column;
+    z-index: 10px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+
+#red,
+#blue,
+#green,
+#black,
+#orange,
+#yellow,
+#white,
+#rose,
+#brown,
+#gray,
+#moccasin,
+#blu{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 15px 15px 7.5px 15px;
+    border: 1px solid;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#black{
+    background-color: black;
+}
+#orange{
+    background-color: orange;
+}
+#yellow{
+    background-color: yellow;
+}
+#white{
+    background-color: white;
+}
+#rose{
+    background-color: #bc8f8f;
+}
+#brown{
+    background-color: #a52a2a;
+}
+#gray{
+    background-color: #808080;
+}
+#moccasin{
+    background-color: #ffe4b5;
+}
+#blu{
+    background-color: #7b68ee;
+}
