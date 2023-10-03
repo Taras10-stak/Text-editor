@@ -66,12 +66,16 @@
 .controlItem #textColor {
     color: black;
 }
-.controlItem #backColor {
+
+.backcolor{
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    border: 1px solid;
+    border: none;
+    box-shadow: black;
+    border-radius: 50px;
+    background-color: black;   
 }
+
 
 
 .palitra{
@@ -146,3 +150,4 @@ li{
 #blu{
     background-color: #7b68ee;
 }
+
