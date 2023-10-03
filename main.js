@@ -456,3 +456,7 @@ $('#blu').click(function () {
         $('#blu').css('border', '1px solid #000')
     }
 })
+
+backColor.oninput = () => {
+    wrap.style.backgroundColor = backColor.value;
+}
